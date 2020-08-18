@@ -1,0 +1,70 @@
+
+javaObj:
+  type: "Object"
+  value: "JavaObj"
+  name:
+    type: "String"
+    value: "Name"
+  age:
+    type: "int"
+    value: "Age"
+  date:
+    type: "Date"
+    value: "Date"
+    pattern: "yyyy-MM-dd HH:mm:ss"
+  price:
+    type: "double"
+    value: "Price"
+  hobby:
+    type: "Array"
+    value: "Hobby"
+  student:
+    type: "Object"
+    value: "Student"
+    name:
+      type: "String"
+      value: "Name"
+  teachers:
+    type: "Array"
+    value: "Teachers"
+    age:
+      type: "int"
+      value: "Age"
+
+  users:
+    type: "Users"
+    value: "Users"
+    name:
+      type: "String"
+      value: "Name"
+
+  order:
+    type: "Array"
+    value: "Order"
+
+  password:
+    type: "Array"
+    value: "Password"
+    name:
+      type: "String"
+      value: "Name"
+
+  flag:
+    type: "boolean"
+    value: "flag"
+
+  float1:
+    type: "float"
+    value: "float"
+
+  byte1:
+    type: "byte"
+    value: "byte"
+
+  short1:
+    type: "short"
+    value: "short"
+
+  long1:
+    type: "long"
+    value: "long"
