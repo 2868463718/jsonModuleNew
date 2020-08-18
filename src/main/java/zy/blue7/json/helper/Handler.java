@@ -99,6 +99,10 @@ public class Handler<T> implements IHandler<T> {
          * 遍历属性名
          */
         for (Field field : fields) {
+            if(environment==null||environment.equals(null)){
+                throw new NullException("Environment 环境变量为空，请先设置environment变量的值");
+            }
+
             /**
              * 获取json中对应的key
              */
